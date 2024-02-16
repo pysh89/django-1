@@ -7,7 +7,7 @@ from django.test.utils import isolate_apps
 class AbsoluteUrlOverrideTests(SimpleTestCase):
     def test_get_absolute_url(self):
         """
-        get_absolute_url() functions as a normal method.
+        get_absolute_url() functions as a noral method.
         """
 
         def get_absolute_url(o):
